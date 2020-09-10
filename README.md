@@ -2,10 +2,10 @@
 New Data Science Student
 Principle Component Analysis (PCA) + Visualization
 #Load the data
-load("~/Downloads/LeukError.RData")
-colnames(leuk)
+load("~/Downloads/MyData.RData")
+colnames(MyData)
 #Look at summarry of the matrix to see how big / small data points are.
-summary(leuk[,4890:5000])
+summary(Mydata[,4890:5000])
 #Correlation between sample V and Type of leukimia
       #If a standard deviation is equal to zero the associated quantity is constant, 
       #so the notion of linear relationship between it and the other doesn't apply. 
